@@ -1,118 +1,644 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Aaryan Singh</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Aneesh Dahiya</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
 
-<body>
+  <body class="is-preload">
+    <!--top Navigation-->
+    <div class="icon-bar" , id="navbar">
+      <a href="#"><i class="icon solid fa-home"></i></a>
+      <a href="#Education"><i class="icon solid fa-graduation-cap"></i></a>
+      <a href="#publication"><i class="icon solid fa-microscope"></i></a>
+      <a href="#work"><i class="icon solid fa-briefcase"></i> </a>
 
-<div class="container">
+      <!-- <a href="#footer"><i class="icon solid fa fa-envelope"> Contact </i></a> -->
+    </div>
 
-    <!-- LEFT PANEL -->
-    <aside class="sidebar">
-        <h1>Aaryan Singh</h1>
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <a href="#" class="image avatar"
+          ><img src="images/profile_picture.jpg" alt=""
+        /></a>
+        <h1><strong>Aneesh Dahiya</strong> <br /></h1>
+      </div>
+      <div class="inner">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/dahiyaaneesh/dahiyaaneesh.github.io/blob/master/assets/CV_Aneesh_Dahiya.pdf"
+			  target="_blank"
+              class="icon far fa-file-pdf"
+              ><span class="label">Resume</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/aneesh-dahiya-88a92410b/"
+			  target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">Linked In</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/dahiyaaneesh"
+			  target="_blank"
+              class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
 
-        <p class="tagline">
-            Mathematical Modeling • Network Science • Machine Learning
+    <!-- Main -->
+    <div id="main">
+      <!-- One -->
+      <section id="one">
+        <header class="major">
+          <h1>Hi, <br /></h1>
+        </header>
+        <p>
+	 I am a machine learning research engineer at Oracle Labs, Zurich.
+	Currently, I am interested in machine learning for code and anomaly detection
+	for a cyber security use case. I like hiking, outdoor training, cooking and reading fiction in my free time.
         </p>
+        <b>Interests</b>
+        <p>Computer vision, pose estimation and machine learning</p>
+      </section>
 
-        <div class="links">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Resume</a>
+      <!-- Two -->
+      <section id="Education">
+        <h1>Education</h1>
+        <div class="col-4 col-12-small">
+          <ul class="labeled-icons">
+            <li>
+              <h3 class="icon solid fa-graduation-cap">
+                <span class="label">Degree</span>
+              </h3>
+              <p>
+                MSc in Information Technology <br />ETH Zurich <br />September
+                2018 - April 2021
+              </p>
+            </li>
+            <li>
+              <h3 class="icon solid fa-graduation-cap">
+                <span class="label">Degree</span>
+              </h3>
+              <p>
+                BTech in Electrical Engineering <br />
+                IIT Roorkee<br />
+                July 2014 - May 2018
+                <br />
+              </p>
+            </li>
+          </ul>
         </div>
-    </aside>
-
-
-    <!-- MAIN CONTENT -->
-    <main class="content">
-
-        <section class="about">
-            <h2>Hi,</h2>
-
+      </section>
+      <section id="publication">
+        <h1>Publication</h1>
+        <div class="row">
+          <article class="col-4 col-12-xsmall work-item">
+            <a
+              href="https://ait.ethz.ch/projects/2021/peclr/"
+              target="_blank"
+              class="image fit thumb"
+              ><img src="images/thumbs/Peclr_new.gif" alt=""
+            /></a>
+          </article>
+          <article class="col-8 col-12-xsmall work-item">
+            <h2>
+              Self-Supervised 3D Hand Pose Estimation from monocular RGB via
+              Contrastive Learning
+            </h2>
             <p>
-                I work at the intersection of mathematical modeling,
-                spectral graph theory, and machine learning.
-                My research explores dimensionality in complex networks,
-                hyperbolic geometry, and large-scale structural inference.
+              ICCV 2021: Acquiring accurate 3D annotated data for hand pose
+              estimation is a notoriously difficult problem. This typically
+              requires complex multi-camera setups ...
             </p>
+            <p><i class="fas fa-award"></i> Selected for oral presentation</p>
+            <!-- <h3>Aneesh Dahiya, Adrian Spurr, Otmar Hilliges</h3> -->
+          </article>
 
+          <article class="col-4 col-12-xsmall work-item">
+            <a
+              href="https://www.research-collection.ethz.ch/handle/20.500.11850/484477"
+              target="_blank"
+              class="image fit thumb"
+              ><img src="images/thumbs/master_thesis_pic.jpg" alt=""
+            /></a>
+          </article>
+          <article class="col-8 col-12-xsmall work-item">
+            <h2>
+              Exploring self-supervised learning techniques for hand pose
+              estimation
+            </h2>
             <p>
-                I am particularly interested in building mathematically grounded
-                systems that translate theoretical insight into computational tools.
+              Master Thesis, April 2021: Estimating 3D hand pose from a
+              monocular RGB image is a challenging task. This is largely due to
+              the limited amount of available labeled data ...
             </p>
-        </section>
+            <!-- <h3>Aneesh Dahiya, Adrian Spurr, Otmar Hilliges</h3> -->
+          </article>
 
-
-        <section class="work">
-            <h2>Selected Work</h2>
-
-            <div class="project">
-                <h3>Collective Dimensionality in Hyperbolic Network Models</h3>
-                <p>
-                    Investigating emergent dimensional structure in synthetic
-                    and real-world networks using spectral methods and
-                    geometric analysis.
-                </p>
-            </div>
-
-            <div class="project">
-                <h3>CampusNet AI: Intelligent Centralized University Platform</h3>
-                <p>
-                    Designing machine learning modules for a university-scale
-                    digital infrastructure focused on automation,
-                    predictive analytics, and resource optimization.
-                </p>
-            </div>
-
-            <div class="project">
-                <h3>Graphium: A Computational Framework for Graph Analysis</h3>
-                <p>
-                    Developed a modular environment for experimentation
-                    with graph algorithms, network metrics, and structural modeling.
-                </p>
-            </div>
-
-            <div class="project">
-                <h3>PrimeForge: Algorithmic Game Engine in JavaScript</h3>
-                <p>
-                    Built a logic-driven game engine emphasizing algorithmic
-                    efficiency and deterministic state transitions.
-                </p>
-            </div>
-
-        </section>
-
-
-        <section class="skills">
-            <h2>Technical Strengths</h2>
-
-            <ul>
-                <li>Spectral Graph Theory</li>
-                <li>Network Geometry</li>
-                <li>Machine Learning</li>
-                <li>Mathematical Modeling</li>
-                <li>Python, C++, JavaScript</li>
-            </ul>
-        </section>
-
-
-        <section class="contact">
-            <h2>Contact</h2>
-
+          <article class="col-4 col-12-xsmall work-item">
+            <a
+              href="http://proceedings.mlr.press/v148/dahiya21a.html"
+              target="_blank"
+              class="image fit thumb"
+              ><img src="images/thumbs/pmlr_paper.png" alt=""
+            /></a>
+          </article>
+          <article class="col-8 col-12-xsmall work-item">
+            <h2>
+              Exploring self-supervised learning techniques for hand pose
+              estimation
+            </h2>
             <p>
-                Open to research collaborations, internships,
-                and mathematically challenging engineering roles.
+              NIPS 2020 workshop, December 2020: 3D hand pose estimation from
+              monocular RGB is a challenging problem due to significantly
+              varying environmental conditions...
             </p>
+            <!-- <h3>Aneesh Dahiya, Adrian Spurr, Otmar Hilliges</h3> -->
+          </article>
+          <!-- <article class="col-4 col-12-xsmall work-item">
+					<a href="https://github.com/dahiyaaneesh/DQN_SCORE_FOUR/blob/master/report.pdf" target="_blank"
+						class="image fit thumb"><img src="images/thumbs/connect-four.png" alt="" /></a>
+				</article> -->
+          <!-- <article class="col-8 col-12-xsmall work-item"> -->
+          <!-- <h2>Deep Q-Network to Learn Score Four <br/> <p>Jan 2020</p></h2>
+					<p>Course report: In this report, we aim to explore how the complexity of hidden layers affects the learning
+						capacity of an
+						agent in the context of reinforcement learning ...</p> -->
+          <!-- <p>Deep learning course project at ETH<p> -->
+          <!-- <h3>Jim Buffat, Aneesh Dahiya, Jonathan Lehner and Till Schnabel<h3> -->
 
-            <p>Email: aaryansinghh@gmail.com</p>
-        </section>
+          <!-- </article> -->
+        </div>
+      </section>
+      <!--Three-->
+      <section id="work">
+        <h1>Work</h1>
+        <div class="timeline">
+	 <div class="containert right">
+            <div class="content">
+              <h4>
+                <b>Machine Learning Engineer </b><br />
+                <bs>Oracle Labs, Zurich</bs>
+              </h4>
+              <p>Feb 2022 - present</p>
+              <cont>I am a research engineer in Keybridge team at Oracle Labs. KeyBridge is a multi-disciplinary project using expertise from systems-programming, data visualization and machine learning in order to understand massive streams of data.
+		      I conducted research on representation learning for logs using NLP approaches, leading to significant advancements. I successfully filed four patents and achieved a remarkable 70% improvement in model performance through dedicated research efforts.
+		      Additionally, I developed custom helm charts for seamless deployment of proprietary solutions on OCI, while optimizing data pipelines using the OCI Data Science service for efficient operations.</cont>
+            </div>
+          </div>
+          <div class="containert right">
+            <div class="content">
+              <h4>
+                <b>Machine Learning Engineer </b><br />
+                <bs>Barix AG, Zurich</bs>
+              </h4>
+              <p>May 2019 - Jan 2022</p>
+              <cont
+                >BARIX is an Audio over IP company. During my tenure, I created an efficient anomaly detector for predictive maintenance on edge devices.
+		      As a tech lead, I successfully developed and prototyped Paging-Gateway-400, enabling intercom messages on BARIX devices.
+		      Additionally, I conducted research on noise detection and sound quality estimation using ML models. Furthermore, I collaborated with an AI startup, contributing my expertise during a six-month sabbatical.</cont
+              >
+            </div>
+          </div>
+          <div class="containert right">
+            <div class="content">
+              <h4>
+                <b>Junior Machine Learning Engineer </b><br />
+                <bs>Visium SA, Zurich</bs>
+              </h4>
+              <p>Feb 2020 - Aug 2020</p>
+              <cont
+                >VISIUM is an AI consultancy startup with an aim to democratize AI and ML technologies.
+		In my role, I developed a time series forecasting model for inventory management, delivering valuable insights to the client.
+		Additionally, I deployed ML models as APIs and optimized training pipelines on GCP, ensuring efficient and scalable operations.
+		Furthermore, I complied  aligned trilingual data, leveraging a shallow neural network empowered by human feedback, for training a language translation model.</cont
+              >
+            </div>
+          </div>
+          <div class="containert right">
+            <div class="content">
+              <h4>
+                <b>Application Engineer </b><br />
+                <bs>Oracle , India </bs>
+              </h4>
+              <p>May 2018 - Aug 2018</p>
+              <cont
+                > My tenure as an Application Engineer in the Responsys team, provided me valuable insights into the processes and software development pipeline within a major tech enterprise..</cont
+              >
+            </div>
+          </div>
+          <div class="containert right">
+            <div class="content">
+              <h4>
+                <b>Research Assistant </b><br />
+                <bs>TU Munich</bs>
+              </h4>
+              <p>May 2017 - Jul 2017</p>
+              <cont
+                > During the semester break, I gained valuable experience in a research environment, where I worked with protocols and procedures. Additionally, I developed a user-friendly GUI using QT for a C++ toolkit developed by HC S Lab.</cont
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Four-->
 
-    </main>
+      <!-- Three -->
+      <!-- <section id="three">
+			<h2>Get In Touch</h2>
+			<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu
+				lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+			<div class="row">
+				<div class="col-8 col-12-small">
+					<form method="post" action="#">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name"
+									placeholder="Name" /></div>
+							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email"
+									placeholder="Email" /></div>
+							<div class="col-12"><textarea name="message" id="message" placeholder="Message"
+									rows="4"></textarea></div>
+						</div>
+					</form>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" /></li>
+					</ul>
+				</div>
+				<div class="col-4 col-12-small">
+					<ul class="labeled-icons">
+						<li>
+							<h3 class="icon solid fa-graduation-cap"><span class="label">Address</span></h3>
+							1234 Somewhere Rd.<br />
+							Nashville, TN 00000<br />
+							United States
+						</li>
+						<li>
+							<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+							000-000-0000
+						</li>
+						<li>
+							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+							<a href="#">hello@untitled.tld</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section> -->
 
-</div>
+      <!-- Four -->
 
-</body>
+      <!-- <section id="four">
+						<h2>Elements</h2>
+
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
+
+						<section>
+							<h4>Lists</h4>
+							<div class="row">
+								<div class="col-6 col-12-xsmall">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+									</ul>
+								</div>
+							</div>
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button primary small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
+
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Primary</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button large">Large</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button primary fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button primary disabled">Primary</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
+
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Manufacturing</option>
+											<option value="1">Shipping</option>
+											<option value="1">Administration</option>
+											<option value="1">Human Resources</option>
+										</select>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="col-12">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section> -->
+
+      <!-- <section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
+
+					</section>
+				 -->
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <ul class="copyright">
+          <li>&copy; Aneesh Dahiya</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
